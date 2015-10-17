@@ -2,8 +2,8 @@
 public class HelloDummy {
 
 	public static void main(String[] args) {
-		System.out.println("Hello Again Dummy!!");
-
+		NewDummy dummy = new NewDummy(45, "John Doe");
+		System.out.println("Hello " + dummy.getName() + "!!");
 	}
 
 }
